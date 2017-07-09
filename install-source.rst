@@ -45,8 +45,11 @@ For MySQL (note, the option says "without ... postgres")
 
 ::
 
- zammad@shell> cp config/database.yml.pkgr config/database.yml
+ zammad@shell> cp config/database.yml.test-postgresql config/database.yml
  zammad@shell> vi config/database.yml
+ 
+ Please change "test:" to "production:"
+ ======================================
 
 
 4. Initialize your database
